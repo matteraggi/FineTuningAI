@@ -1,7 +1,6 @@
 # FineTuningAI
 
-Il modello finetuned migliore è SC_Finetuned, in /models/.
-Andamento del suo training:
+Andamento del modello SC_Finetuned_res, allenato con suo training:
 100 	1.454600 	0.683269
 200 	0.828500 	0.669694
 300 	0.782400 	0.649764
