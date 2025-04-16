@@ -1,6 +1,6 @@
 # FineTuningAI
 
-Andamento del modello SC_Finetuned_res, allenato con suo training:
+Andamento del training del modello SC_Finetuned_res:
 100 	1.454600 	0.683269
 200 	0.828500 	0.669694
 300 	0.782400 	0.649764
@@ -14,3 +14,20 @@ Andamento del modello SC_Finetuned_res, allenato con suo training:
 1100 	0.671800 	0.617579
 1200 	0.668300 	0.617474
 TrainOutput(global_step=1200, training_loss=0.7814562543233236, metrics={'train_runtime': 5773.2888, 'train_samples_per_second': 1.663, 'train_steps_per_second': 0.208, 'total_flos': 5.492704318883021e+16, 'train_loss': 0.7814562543233236})
+
+
+Andamento del training del modello SC_Finetuned_seed:
+Step 	Training Loss 	Validation Loss
+100 	2.022000 	1.158890
+200 	1.389000 	1.136644
+300 	1.324400 	1.111706
+400 	1.302900 	1.103864
+500 	1.259000 	1.106382
+600 	1.233300 	1.100868
+700 	1.233700 	1.093877
+800 	1.212000 	1.089483
+900 	1.193500 	1.094189
+1000 	1.190500 	1.089587
+1100 	1.177900 	1.087539
+1200 	1.175800 	1.087494
+TrainOutput(global_step=1200, training_loss=1.3094926770528157, metrics={'train_runtime': 4898.9689, 'train_samples_per_second': 1.96, 'train_steps_per_second': 0.245, 'total_flos': 4.277504802204058e+16, 'train_loss': 1.3094926770528157})
