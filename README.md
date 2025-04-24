@@ -31,3 +31,23 @@ Step 	Training Loss 	Validation Loss
 1100 	1.177900 	1.087539
 1200 	1.175800 	1.087494
 TrainOutput(global_step=1200, training_loss=1.3094926770528157, metrics={'train_runtime': 4898.9689, 'train_samples_per_second': 1.96, 'train_steps_per_second': 0.245, 'total_flos': 4.277504802204058e+16, 'train_loss': 1.3094926770528157})
+
+
+Andamento del training del modello DS_Finetuned:
+100 	2.409300
+200 	0.342900
+300 	0.311500
+400 	0.316500
+500 	0.318600
+600 	0.305900
+700 	0.306500
+800 	0.311700
+900 	0.296400
+1000 	0.302700
+1100 	0.305800
+1200 	0.287200
+1300 	0.298100
+1400 	0.291200
+1500 	0.291200
+
+TrainOutput(global_step=1500, training_loss=0.4463768793741862, metrics={'train_runtime': 10262.9326, 'train_samples_per_second': 1.169, 'train_steps_per_second': 0.146, 'total_flos': 1.14457602686976e+17, 'train_loss': 0.4463768793741862})
