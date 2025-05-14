@@ -1,38 +1,5 @@
 # FineTuningAI
 
-Andamento del training del modello SC_Finetuned_res:
-100 	1.454600 	0.683269
-200 	0.828500 	0.669694
-300 	0.782400 	0.649764
-400 	0.763600 	0.636099
-500 	0.727100 	0.635959
-600 	0.711100 	0.635858
-700 	0.710900 	0.626262
-800 	0.705200 	0.619176
-900 	0.683600 	0.622405
-1000 	0.670500 	0.618653
-1100 	0.671800 	0.617579
-1200 	0.668300 	0.617474
-TrainOutput(global_step=1200, training_loss=0.7814562543233236, metrics={'train_runtime': 5773.2888, 'train_samples_per_second': 1.663, 'train_steps_per_second': 0.208, 'total_flos': 5.492704318883021e+16, 'train_loss': 0.7814562543233236})
-
-
-Andamento del training del modello SC_Finetuned_seed:
-Step 	Training Loss 	Validation Loss
-100 	2.022000 	1.158890
-200 	1.389000 	1.136644
-300 	1.324400 	1.111706
-400 	1.302900 	1.103864
-500 	1.259000 	1.106382
-600 	1.233300 	1.100868
-700 	1.233700 	1.093877
-800 	1.212000 	1.089483
-900 	1.193500 	1.094189
-1000 	1.190500 	1.089587
-1100 	1.177900 	1.087539
-1200 	1.175800 	1.087494
-TrainOutput(global_step=1200, training_loss=1.3094926770528157, metrics={'train_runtime': 4898.9689, 'train_samples_per_second': 1.96, 'train_steps_per_second': 0.245, 'total_flos': 4.277504802204058e+16, 'train_loss': 1.3094926770528157})
-
-
 Andamento del training del modello DS_Finetuned:
 100 	2.409300
 200 	0.342900
@@ -51,3 +18,43 @@ Andamento del training del modello DS_Finetuned:
 1500 	0.291200
 
 TrainOutput(global_step=1500, training_loss=0.4463768793741862, metrics={'train_runtime': 10262.9326, 'train_samples_per_second': 1.169, 'train_steps_per_second': 0.146, 'total_flos': 1.14457602686976e+17, 'train_loss': 0.4463768793741862})
+
+
+Andamento del training del modello DS_Finetuned_3, che nasconde l'instruction nel preprocessing:
+100 	1.945700
+200 	0.333200
+300 	0.308200
+400 	0.314100
+500 	0.316400
+600 	0.303900
+700 	0.304400
+800 	0.309900
+900 	0.294400
+1000 	0.300900
+1100 	0.303900
+1200 	0.285500
+1300 	0.296300
+1400 	0.289400
+1500 	0.289400
+
+TrainOutput(global_step=1500, training_loss=0.41304088465372724, metrics={'train_runtime': 10447.7841, 'train_samples_per_second': 1.149, 'train_steps_per_second': 0.144, 'total_flos': 1.14457602686976e+17, 'train_loss': 0.41304088465372724})
+
+
+Andamento del training del modello DS_Finetuned_5, allenato usando response al posto di seed:
+100 	1.675900
+200 	0.229700
+300 	0.224200
+400 	0.216100
+500 	0.217400
+600 	0.208700
+700 	0.206000
+800 	0.209900
+900 	0.201400
+1000 	0.209800
+1100 	0.202700
+1200 	0.195400
+1300 	0.199100
+1400 	0.196400
+1500 	0.195600
+
+TrainOutput(global_step=1500, training_loss=0.30588720703125, metrics={'train_runtime': 10386.4181, 'train_samples_per_second': 1.155, 'train_steps_per_second': 0.144, 'total_flos': 1.14457602686976e+17, 'train_loss': 0.30588720703125})
